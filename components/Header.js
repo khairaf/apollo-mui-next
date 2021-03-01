@@ -20,6 +20,9 @@ export default function Header() {
       <Link href="/ssr">
         <a className={pathname === '/ssr' ? 'is-active' : ''}>SSR</a>
       </Link>
+      <Link href="/mui-post-list">
+        <a className={pathname === '/mui-post-list' ? 'is-active' : ''}>MUI</a>
+      </Link>
       <style jsx>{`
         header {
           margin-bottom: 25px;
